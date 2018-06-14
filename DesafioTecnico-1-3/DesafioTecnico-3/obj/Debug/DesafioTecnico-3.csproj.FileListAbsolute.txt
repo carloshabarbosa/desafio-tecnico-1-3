@@ -1,0 +1,5 @@
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-3\bin\Debug\DesafioTecnico-3.exe.config
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-3\bin\Debug\DesafioTecnico-3.exe
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-3\bin\Debug\DesafioTecnico-3.pdb
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-3\obj\Debug\DesafioTecnico-3.exe
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-3\obj\Debug\DesafioTecnico-3.pdb

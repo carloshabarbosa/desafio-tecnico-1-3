@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using System.Runtime.InteropServices;
 using DesafioTecnico_1.Collatz;
-using DesafioTecnico_1.Extensions;
 
 namespace DesafioTecnico_1
 {

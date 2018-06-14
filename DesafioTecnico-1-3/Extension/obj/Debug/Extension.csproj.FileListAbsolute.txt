@@ -1,0 +1,5 @@
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\Extension\bin\Debug\Extension.dll
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\Extension\bin\Debug\Extension.pdb
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\Extension\obj\Debug\Extension.csprojResolveAssemblyReference.cache
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\Extension\obj\Debug\Extension.dll
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\Extension\obj\Debug\Extension.pdb

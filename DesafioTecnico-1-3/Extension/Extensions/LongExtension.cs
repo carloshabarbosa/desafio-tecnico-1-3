@@ -1,4 +1,6 @@
-﻿namespace DesafioTecnico_1.Extensions
+﻿using System;
+
+namespace Extension.Extensions
 {
     /// <summary>
     /// Extension para trabalhar com o tipo Long
@@ -6,7 +8,7 @@
     public static class LongExtension
     {
         /// <summary>
-        /// Método de extensão para descobrir se um número é par!
+        /// Método de extensão para descobrir se um número do tipo LONG é par!
         /// </summary>
         /// <param name="number">Número que deseja verificar</param>
         /// <returns>true para par e false para ímpar</returns>
@@ -14,6 +16,6 @@
         {
             return number % 2 == 0;
         }
-        
+
     }
 }

@@ -11,3 +11,5 @@ C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\bin\Debug\DesafioTe
 C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.exe
 C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.pdb
 C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.csprojResolveAssemblyReference.cache
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\bin\Debug\Extension.dll
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\bin\Debug\Extension.pdb

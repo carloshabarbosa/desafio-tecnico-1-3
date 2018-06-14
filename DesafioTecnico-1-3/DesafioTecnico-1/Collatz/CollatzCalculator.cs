@@ -1,5 +1,5 @@
 ﻿using System;
-using DesafioTecnico_1.Extensions;
+using Extension.Extensions;
 
 namespace DesafioTecnico_1.Collatz
 {
