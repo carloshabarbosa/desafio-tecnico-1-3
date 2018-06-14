@@ -4,3 +4,10 @@ C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\bin\Debug\DesafioTe
 C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.csprojResolveAssemblyReference.cache
 C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.exe
 C:\Sites\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.pdb
+C:\Projetos\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\bin\Debug\DesafioTecnico-1.exe.config
+C:\Projetos\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\bin\Debug\DesafioTecnico-1.exe
+C:\Projetos\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\bin\Debug\DesafioTecnico-1.pdb
+C:\Projetos\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.csprojAssemblyReference.cache
+C:\Projetos\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.csproj.CoreCompileInputs.cache
+C:\Projetos\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.exe
+C:\Projetos\desafio-tecnico\DesafioTecnico-1-3\DesafioTecnico-1\obj\Debug\DesafioTecnico-1.pdb

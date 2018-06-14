@@ -12,20 +12,27 @@ namespace DesafioTecnico_1
     {
         static void Main(string[] args)
         {
-            for (int indexNumber = 0; indexNumber < 1000000; indexNumber++)
+            var listResult = new List<int>();
+            for (int indexNumber = 1; indexNumber <= 1000000; indexNumber++)
             {
-                var teste = ResolveNumber(indexNumber, 0);
+                listResult.Add(ResolveNumber(indexNumber));
+                Console.WriteLine(indexNumber);
             }
+
+            Console.WriteLine(listResult.Max(c => c));
         }
 
-        private static int ResolveNumber(int number, int count)
+        private static int ResolveNumber(int number)
         {
-            if (number == 1)
-                return count;
+            var count = 1;
+            while (number != 1 || count == 1)
+            {
+                count++;
 
-            number = CalculateNumber(number);
+                number = CalculateNumber(number);
+            }
 
-            return ResolveNumber(number, count);
+            return count;
         }
 
         private static int CalculateNumber(int number)
