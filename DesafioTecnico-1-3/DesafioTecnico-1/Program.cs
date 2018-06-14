@@ -1,59 +1,70 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
+using DesafioTecnico_1.Collatz;
 using DesafioTecnico_1.Extensions;
 
 namespace DesafioTecnico_1
 {
     class Program
     {
+        //Configurando o número limite de execuções
+        private const int LimitNumber = 1000000;
+
         static void Main(string[] args)
         {
-            var listResult = new List<int>();
-            for (int indexNumber = 1; indexNumber <= 1000000; indexNumber++)
-            {
-                listResult.Add(ResolveNumber(indexNumber));
-                Console.WriteLine(indexNumber);
-            }
+            // Cria o StopWatch
+            var sw = new Stopwatch();
 
-            Console.WriteLine(listResult.Max(c => c));
+            // Começa a contar o tempo
+            sw.Start();
+            
+            //Gera uma lista de 1 até o limite de execuções
+            var baseList = Enumerable.Range(1, LimitNumber).ToList();
+
+            //Monta uma lista com o número que foi calculado e a quantidade de ocorrências que o mesmo gerou
+            var resolvedList = baseList.Select(c => new Result
+                {
+                    Number = c,
+                    OcccurencesNumber = CollatzCalculator.ResolveNumber(c)
+                })
+                .ToList();
+
+            //Seleciona o número com o maior número de ocorrências
+            var result = 
+                resolvedList.OrderByDescending(c => c.OcccurencesNumber).FirstOrDefault();
+
+            // Para de contar o tempo
+            sw.Stop();
+
+
+            // Obtém o tempo que a rotina demorou a executar
+            var tempo = sw.Elapsed;
+
+            //Monta e exibie a mensagem na tela
+            Console.WriteLine(BuildResult(result.Number, result.OcccurencesNumber));
+
+            //Exibe a quantidade em ms em que o código demorou para resolver
+            Console.WriteLine($"tempo de processamento: {tempo.Milliseconds} ms");
+            //Espera uma ação do usuário
+            Console.ReadKey();
         }
 
-        private static int ResolveNumber(int number)
+
+        /// <summary>
+        /// Monta a mensagem que será exibida no console
+        /// </summary>
+        /// <param name="number">Número que foi usado para o cálculo</param>
+        /// <param name="occurrencesNumber">Quantidade de ocorrências em que o número gerou</param>
+        /// <returns>Mensagem formatada para exibição</returns>
+        private static string BuildResult(int number, long occurrencesNumber)
         {
-            var count = 1;
-            while (number != 1 || count == 1)
-            {
-                count++;
-
-                number = CalculateNumber(number);
-            }
-
-            return count;
+            return $"O número: {number} gerou: {occurrencesNumber} ocorrências, sendo o maior número de ocorrências!";
         }
 
-        private static int CalculateNumber(int number)
-        {
-            if (number.IsEven())
-            {
-                return CalculateEven(number);
-            }
 
-            return CalculateOdd(number);
-        }
-
-        private static int CalculateEven(int number)
-        {
-            return number / 2;
-        }
-
-        private static int CalculateOdd(int number)
-        {
-            return number * 3 + 1;
-        }
+       
 
     }
 }

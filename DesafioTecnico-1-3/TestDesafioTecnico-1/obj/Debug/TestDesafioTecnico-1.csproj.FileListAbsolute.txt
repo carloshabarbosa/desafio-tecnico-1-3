@@ -1,0 +1,8 @@
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\bin\Debug\TestDesafioTecnico-1.dll
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\bin\Debug\TestDesafioTecnico-1.pdb
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\bin\Debug\DesafioTecnico-1.exe
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\bin\Debug\DesafioTecnico-1.pdb
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\obj\Debug\TestDesafioTecnico-1.csprojResolveAssemblyReference.cache
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\obj\Debug\TestDesafioTecnico-1.dll
+C:\Sites\desafio-tecnico\DesafioTecnico-1-3\TestDesafioTecnico-1\obj\Debug\TestDesafioTecnico-1.pdb
